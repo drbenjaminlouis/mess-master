@@ -38,6 +38,32 @@ The project aims to address inefficiencies in conventional food mess management 
 4. **Settings:** Customize notifications, data management, and other app preferences.
 5. **Plan Management:** Add, delete, and update meal plan details.
 
+## Connecting Firebase Authentication and Firestore to Your Mess Master Kotlin App
+
+To integrate Firebase Authentication and Firestore with your Mess Master Kotlin application using Android Studio's Firebase Assistant, follow these steps:
+
+### 1. Set Up Firebase Project
+
+1. **Create Firebase Project:**
+   - Go to the [Firebase Console](https://console.firebase.google.com/) and create a new project.
+
+### 2. Connect Firebase in Android Studio
+
+1. **Open Firebase Assistant:**
+   - In Android Studio, navigate to `Tools` > `Firebase` to open the Firebase Assistant panel.
+
+2. **Add Firebase Authentication:**
+   - In the Firebase Assistant panel, expand `Authentication` and click on `Email and password authentication`.
+   - Click on `Connect to Firebase` to link your project with Firebase.
+   - Follow the prompts to select your Firebase project and complete the setup.
+
+3. **Add Cloud Firestore:**
+   - In the Firebase Assistant panel, expand `Firestore` and click on `Set up Firestore`.
+   - Choose `Start in test mode` for simplicity (you can adjust security rules later).
+   - Click `Next` and then `Connect Firestore to your app` to complete the setup.
+
+By following these steps, you can connect Firebase Authentication and Firestore to your Mess Master Kotlin application using Android Studio's Firebase Assistant.
+
 ## Configuring Email Credentials
 
 To enable email functionality in the Mess Master application for sending OTPs or notifications, follow these steps to configure your Gmail credentials:
