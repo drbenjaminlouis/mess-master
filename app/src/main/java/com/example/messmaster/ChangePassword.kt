@@ -104,8 +104,8 @@ class ChangePassword : AppCompatActivity() {
     }
 
     private fun sendOTPEmail(receiverEmail: String, otp: String) {
-        val senderEmail = "ajmoviezone1@gmail.com"
-        val password = "dlcvbhrznpwbtmgc"
+        val senderEmail = "your_email@gmail.com" // Replace with your Gmail address
+        val password = "your_app_password" // Replace with your Gmail app-specific password
 
         // Move the email sending operation to a background thread using coroutines
         CoroutineScope(Dispatchers.IO).launch {
